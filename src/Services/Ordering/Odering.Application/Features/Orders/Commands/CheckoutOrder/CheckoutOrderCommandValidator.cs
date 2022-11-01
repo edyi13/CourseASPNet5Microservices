@@ -23,5 +23,5 @@ namespace Ordering.Application.Features.Orders.Commands.CheckoutOrder
                 .NotEmpty().WithMessage("{TotalPrice} is required.")
                 .GreaterThan(0).WithMessage("{TotalPrice} should be greater than zero.");
         }
-    }
+    } 
 }
