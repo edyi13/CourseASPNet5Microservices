@@ -25,6 +25,5 @@ namespace Ordering.Infrastructure
 
             return services;
         }
-
     }
 }
